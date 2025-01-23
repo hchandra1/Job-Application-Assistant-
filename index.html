@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Tailoring</title>
+</head>
+<body>
+    <h1>Upload Your Resume and Job Description</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="resume">Upload Resume (PDF):</label><br>
+        <input type="file" id="resume" name="resume" required><br><br>
+        
+        <label for="job_description">Paste Job Description:</label><br>
+        <textarea id="job_description" name="job_description" rows="5" cols="40" required></textarea><br><br>
+        
+        <input type="checkbox" id="cover_letter" name="cover_letter">
+        <label for="cover_letter">Generate Cover Letter</label><br><br>
+        
+        <button type="submit">Generate</button>
+    </form>
+</body>
+</html>

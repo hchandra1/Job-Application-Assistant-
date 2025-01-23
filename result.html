@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Files</title>
+</head>
+<body>
+    <h1>Files Generated Successfully!</h1>
+    <ul>
+        <li><a href="/download/{{ resume_path }}">Download Tailored Resume</a></li>
+        {% if cover_letter_path %}
+            <li><a href="/download/{{ cover_letter_path }}">Download Cover Letter</a></li>
+        {% endif %}
+    </ul>
+    <a href="/">Go Back</a>
+</body>
+</html>
