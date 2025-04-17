@@ -89,7 +89,7 @@ The resume is formatted according to "Jake's Resume Format":
 2. Contact details.
 3. Professional summary.
 4. Skills in bullet points.
-5. Work experience (most recent first).
+5. Work experience.
 6. Education.
 
 ### Custom Cover Letter
